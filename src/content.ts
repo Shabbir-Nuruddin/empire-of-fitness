@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/barlow-condensed/800.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,49 +17,65 @@ export const SITE: Site = {
   "lon": 77.0958324,
   "hours": [
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ],
     [
-      6,
-      24
+      [
+        6,
+        24
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
+    "dark": true,
+    "bg": "#0e0909",
+    "bg2": "#161212",
+    "panel": "#1c1818",
+    "ink": "#f6ece7",
+    "ink2": "#c3bab6",
+    "ink3": "#877f7c",
+    "line": "#292424",
+    "accent": "#ff4433",
+    "onAccent": "#290b08",
+    "display": "Barlow Condensed",
     "weight": 800,
-    "upper": false,
-    "accent": "#b91c1c"
+    "upper": true
   },
+  "scene": "barbell",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -76,13 +91,7 @@ export const SITE: Site = {
       "en": "4.7 on Google from 666 reviews. Members write about trainers always on the floor, a wide open space in U Block and evening yoga, zumba and kickboxing classes.",
       "hi": "गूगल पर 666 रिव्यू से 4.7। मेंबर हमेशा फ़्लोर पर मौजूद ट्रेनरों, यू ब्लॉक की खुली जगह और शाम की योग, ज़ुम्बा और किकबॉक्सिंग क्लास के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p3.jpg",
-    "slides": [
-      "/img/p3.jpg",
-      "/img/p11.jpg",
-      "/img/p10.jpg",
-      "/img/p9.jpg"
-    ]
+    "fallback": "/img/p3.jpg"
   },
   "marquee": [
     "Strength",
@@ -337,5 +346,40 @@ export const SITE: Site = {
       "en": "Hi Empire Of Fitness, I'd like to enquire:",
       "hi": "नमस्ते एम्पायर ऑफ़ फ़िटनेस, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Trainers",
+        "hi": "ट्रेनर"
+      },
+      "title": {
+        "en": "Always enough trainers on the floor.",
+        "hi": "फ़्लोर पर हमेशा काफ़ी ट्रेनर।"
+      },
+      "quote": "Always there are enough trainners on field."
+    },
+    {
+      "kicker": {
+        "en": "Classes",
+        "hi": "क्लास"
+      },
+      "title": {
+        "en": "Kickboxing, yoga, zumba, bhangra.",
+        "hi": "किकबॉक्सिंग, योग, ज़ुम्बा, भांगड़ा।"
+      },
+      "quote": "There is seperate space for bhangra yoga etc."
+    },
+    {
+      "kicker": {
+        "en": "First time",
+        "hi": "पहली बार"
+      },
+      "title": {
+        "en": "Beginners get their form checked.",
+        "hi": "नए लोगों का फ़ॉर्म चेक होता है।"
+      },
+      "quote": "He pays close attention to my form during every exercise, corrects my posture, and makes sure I train safely."
+    }
+  ]
 };
